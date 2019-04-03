@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+.table-box {
+  padding: 10px;
+}
+
+table tr:nth-child(even) {
+  background-color: rgba(230, 230, 230, 0.3);
+}
+
+table {
+  border-collapse: collapse;
+
+  tr {
+    th {
+      border-right: 1.5px solid white;
+      background-color: darkslategrey;
+      color: white
+    }
+
+    th:last-child {
+      border-right: 1.5px solid black;
+    }
+
+    td {
+      text-align: justify;
+      border: 1.5px solid black;
+    }
+  }
+
+}
